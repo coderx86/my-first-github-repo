@@ -1,0 +1,76 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    padding: 10px;
+    background-image: linear-gradient(135deg, rgba(160, 6, 243, 0.508),rgba(6, 196, 243, 0.508)), url(img24.jpg);
+}
+.hello{
+    color: #b92b27;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+.box{
+    margin-top: 20px;
+    height: 275px;
+    width: 100px;
+    background-color: beige;
+    border: 2px solid black;
+    box-shadow: 2px 2px 8px black;
+}
+
+
+.red{
+    height: 75px;
+    width: 75px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10%;
+}
+.red:hover{
+    box-shadow: 2px 2px 16px red;
+}
+
+.yellow{
+    height: 75px;
+    width: 75px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 10%;
+}
+.yellow:hover{
+    box-shadow: 2px 2px 16px yellow;
+}
+
+.green{
+    height: 75px;
+    width: 75px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(3, 234, 3);
+    margin: 10%;
+}
+.green:hover{
+    box-shadow: 2px 2px 16px rgb(3, 234, 3);
+}
+
+.flex{
+    margin: 10px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px; 
+    background-color: rgba(255, 255, 255, 0.504);
+}
+
+@media screen and (max-width:600px) {
+    .flex{
+        flex-direction: column;
+    }
+    .flex h2{
+        text-align: center;
+    }
+}
