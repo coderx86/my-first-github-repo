@@ -46,9 +46,11 @@ while(i>=1){
         break;
     }else if(num<random){
         num = prompt("Your number is too small! You have "+ i +" time chance");
-    } else {
+    }else{
         num = prompt("Your number is too Large! You have " + i +" time chance");
     }
     i--;
 }
-console.log("Game Over!")
+if(num != random){
+    console.log("Game Over!");
+}
